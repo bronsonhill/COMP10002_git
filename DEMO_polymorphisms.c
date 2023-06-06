@@ -1,8 +1,10 @@
-/* polymorphism implementation
+/* polymorphism implementation 
+- when wanting
 */
 
 #include <stdio.h>
 
+/* function prototypes */
 /* sort with function pointers */
 int sort(int x1, int x2, int (*F)(void*, void*));
 int int_sort(void* x1, void* x2);
